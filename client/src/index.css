@@ -118,15 +118,12 @@ input {
 }
 
 .tick {
-  padding: 10px;
+  width: 20px;
+  height: 20px;
+  padding: 10px !important;
+  cursor: pointer;
 }
 
-.tick path{
-  fill: none;
-  stroke: black;
-  stroke-miterlimit: 10;
-  stroke-width: 32px;
-}
 
 /* Modal */
 
@@ -223,7 +220,7 @@ input {
   background-color: rgb(216, 216, 216);
   border-radius: 7px;
   overflow: hidden;
-
+  border: 3px black;
 }
 
 .inner-bar {
